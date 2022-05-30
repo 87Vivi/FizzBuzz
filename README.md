@@ -1,2 +1,2 @@
 # FizzBuzz
-![Alt Screenshot](img/screenshot_hmp.png)
+![Alt Screenshot](img/screen_hmp.png)
