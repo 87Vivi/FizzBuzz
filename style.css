@@ -1,0 +1,97 @@
+/* General */
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #444;
+    background-color: #fff;
+}
+
+.structureWrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.gridWrapper {
+    margin: 0 auto;
+    padding: 0 25px;
+    max-width: 1186px;
+
+}
+.header {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 25px 0;
+    background-color: rgb(78, 63, 63);
+}
+.content {
+    padding: 50px 0;
+    flex: 1 1 0;
+    padding:2rem;
+
+}
+
+.footer {
+    padding: 10px 0;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.4);
+    background-color: #333;
+}
+
+/* Logo */
+.header__logo {
+    display: block;
+    width: auto;
+    height: 5rem;
+}
+
+/* Text */
+.headline {
+    font-size: 2.5em;
+    font-weight: 300;
+    margin-bottom: 0.5em;
+}
+.paragraph {
+    margin-top: 0.5em;
+}
+.paragraph:first-of-type {
+    margin-top: 0;
+}
+
+/* Fizz Buzz list */
+.fizzBuzzList{
+    margin-top:2em;
+    padding:1rem;
+    border-radius: 0.5em;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 8%), 0 5px 26px 0 rgb(67 94 131 / 15%);
+}
+li{
+    margin:0.5rem 0;
+    list-style-type:none;
+    background-color: rgb(202, 202, 202);
+    color:white;
+    font-size:1.6em;
+    font-weight:700
+
+}
+li:nth-child(3n),
+li:nth-child(5n){
+    list-style:none;
+    border-radius: 0.2rem;
+    font-size:1.6rem;
+    /* width:10rem; */
+    text-align:center;
+    font-weight:bold;
+    color:white
+}
+
+li:nth-child(3n){
+    background-color:#5a2d29 ;
+  }
+
+li:nth-child(5n){
+    background-color: #dd8c56;
+}
+li:nth-child(15n){
+    background-color:#e25349;
+}
